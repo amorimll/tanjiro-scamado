@@ -34,7 +34,7 @@ async def play_next(ctx, voice_client):
 @bot.command(name="play")
 async def play(ctx, url: str):
     if not ctx.author.voice:
-        await ctx.send("Entra em um canal ae vacilão.")
+        await ctx.send("Entra em um canal ae.")
         return
 
     channel = ctx.author.voice.channel
